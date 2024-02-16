@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Vapes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5eef8;
+            color: #000;
+        }
+        header {
+            background-color: #6a0dad;
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .search-box {
+            text-align: center;
+        }
+        .search-box input[type="text"] {
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
+            width: 200px;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #6a0dad;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1, h2, p, li {
+            color: #000;
+        }
+        .additional-options {
+            display: flex;
+            justify-content: space-between;
+        }
+        .additional-option {
+            width: 30%;
+            text-align: center;
+        }
+        .additional-option img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Vapes</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Buscar...">
+        </div>
+        <div class="nav-buttons">
+            <button onclick="location.href='#'">Login</button>
+            <button onclick="location.href='#'">Register</button>
+            <button onclick="location.href='#'">Servicios</button>
+        </div>
+    </header>
+    <main>
+        <p>Bienvenido a nuestra tienda de vapes. Encuentra los mejores productos para vapear aquí.</p>
+        <h2>Productos destacados:</h2>
+        <ul>
+            <li>Vapeador modelo X1</li>
+            <li>Líquido de vapeo sabor fresa</li>
+            <li>Batería recargable de larga duración</li>
+            <li>Estuche de transporte para vapes</li>
+        </ul>
+        <div class="additional-options">
+            <div class="additional-option">
+                <h3>Disposable Vapes</h3>
+                <img src="disposable.png" height="375" alt="Disposable Vapes">
+                <p>Descripción del producto...</p>
+            </div>
+            <div class="additional-option">
+                <h3>Vape Salt Kits</h3>
+                <img src="imagen_vape_salt_kits.jpg" alt="Vape Salt Kits">
+                <p>Descripción del producto...</p>
+            </div>
+            <div class="additional-option">
+                <h3>Salt Nic Liquids</h3>
+                <img src="imagen_salt_nic_liquids.jpg" alt="Salt Nic Liquids">
+                <p>Descripción del producto...</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Derechos de autor &copy; 2024 - Tienda de Vapes VaporaTodo</p>
+    </footer>
+</body>
+</html>
+
